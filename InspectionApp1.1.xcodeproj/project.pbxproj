@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43550F101A6C039500A8FC39 /* Issues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43550F0F1A6C039500A8FC39 /* Issues.swift */; };
+		43550F141A6C08FA00A8FC39 /* IssueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43550F131A6C08FA00A8FC39 /* IssueListViewController.swift */; };
 		436B7D711A6ABDB3003BDE13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B7D701A6ABDB3003BDE13 /* AppDelegate.swift */; };
 		436B7D741A6ABDB3003BDE13 /* InspectionApp1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 436B7D721A6ABDB3003BDE13 /* InspectionApp1_1.xcdatamodeld */; };
-		436B7D761A6ABDB3003BDE13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B7D751A6ABDB3003BDE13 /* ViewController.swift */; };
 		436B7D791A6ABDB3003BDE13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 436B7D771A6ABDB3003BDE13 /* Main.storyboard */; };
 		436B7D7B1A6ABDB3003BDE13 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 436B7D7A1A6ABDB3003BDE13 /* Images.xcassets */; };
 		436B7D7E1A6ABDB3003BDE13 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436B7D7C1A6ABDB3003BDE13 /* LaunchScreen.xib */; };
 		436B7D8A1A6ABDB3003BDE13 /* InspectionApp1_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B7D891A6ABDB3003BDE13 /* InspectionApp1_1Tests.swift */; };
+		436B7D941A6AC033003BDE13 /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B7D931A6AC033003BDE13 /* ProjectsTableViewController.swift */; };
+		436B7D961A6AC054003BDE13 /* AddProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B7D951A6AC054003BDE13 /* AddProjectViewController.swift */; };
+		436B7D981A6AC27E003BDE13 /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436B7D971A6AC27E003BDE13 /* Projects.swift */; };
+		439D49661A6D5BD100CE92D5 /* AddIssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439D49651A6D5BD100CE92D5 /* AddIssueViewController.swift */; };
+		439D49681A6D674F00CE92D5 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 439D49671A6D674F00CE92D5 /* images.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43550F0F1A6C039500A8FC39 /* Issues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issues.swift; sourceTree = "<group>"; };
+		43550F131A6C08FA00A8FC39 /* IssueListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueListViewController.swift; sourceTree = "<group>"; };
 		436B7D6B1A6ABDB3003BDE13 /* InspectionApp1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspectionApp1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436B7D6F1A6ABDB3003BDE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436B7D701A6ABDB3003BDE13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		436B7D731A6ABDB3003BDE13 /* InspectionApp1_1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InspectionApp1_1.xcdatamodel; sourceTree = "<group>"; };
-		436B7D751A6ABDB3003BDE13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		436B7D781A6ABDB3003BDE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		436B7D7A1A6ABDB3003BDE13 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		436B7D7D1A6ABDB3003BDE13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		436B7D831A6ABDB3003BDE13 /* InspectionApp1.1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InspectionApp1.1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		436B7D881A6ABDB3003BDE13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		436B7D891A6ABDB3003BDE13 /* InspectionApp1_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionApp1_1Tests.swift; sourceTree = "<group>"; };
+		436B7D931A6AC033003BDE13 /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
+		436B7D951A6AC054003BDE13 /* AddProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProjectViewController.swift; sourceTree = "<group>"; };
+		436B7D971A6AC27E003BDE13 /* Projects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		439D49651A6D5BD100CE92D5 /* AddIssueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddIssueViewController.swift; sourceTree = "<group>"; };
+		439D49671A6D674F00CE92D5 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +91,19 @@
 		436B7D6D1A6ABDB3003BDE13 /* InspectionApp1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				439D49671A6D674F00CE92D5 /* images.jpg */,
 				436B7D701A6ABDB3003BDE13 /* AppDelegate.swift */,
-				436B7D751A6ABDB3003BDE13 /* ViewController.swift */,
+				436B7D971A6AC27E003BDE13 /* Projects.swift */,
+				436B7D951A6AC054003BDE13 /* AddProjectViewController.swift */,
+				436B7D931A6AC033003BDE13 /* ProjectsTableViewController.swift */,
 				436B7D771A6ABDB3003BDE13 /* Main.storyboard */,
 				436B7D7A1A6ABDB3003BDE13 /* Images.xcassets */,
 				436B7D7C1A6ABDB3003BDE13 /* LaunchScreen.xib */,
 				436B7D721A6ABDB3003BDE13 /* InspectionApp1_1.xcdatamodeld */,
 				436B7D6E1A6ABDB3003BDE13 /* Supporting Files */,
+				43550F0F1A6C039500A8FC39 /* Issues.swift */,
+				439D49651A6D5BD100CE92D5 /* AddIssueViewController.swift */,
+				43550F131A6C08FA00A8FC39 /* IssueListViewController.swift */,
 			);
 			path = InspectionApp1.1;
 			sourceTree = "<group>";
@@ -198,6 +216,7 @@
 				436B7D791A6ABDB3003BDE13 /* Main.storyboard in Resources */,
 				436B7D7E1A6ABDB3003BDE13 /* LaunchScreen.xib in Resources */,
 				436B7D7B1A6ABDB3003BDE13 /* Images.xcassets in Resources */,
+				439D49681A6D674F00CE92D5 /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +234,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				436B7D761A6ABDB3003BDE13 /* ViewController.swift in Sources */,
+				439D49661A6D5BD100CE92D5 /* AddIssueViewController.swift in Sources */,
+				436B7D981A6AC27E003BDE13 /* Projects.swift in Sources */,
+				436B7D961A6AC054003BDE13 /* AddProjectViewController.swift in Sources */,
 				436B7D711A6ABDB3003BDE13 /* AppDelegate.swift in Sources */,
+				43550F141A6C08FA00A8FC39 /* IssueListViewController.swift in Sources */,
 				436B7D741A6ABDB3003BDE13 /* InspectionApp1_1.xcdatamodeld in Sources */,
+				436B7D941A6AC033003BDE13 /* ProjectsTableViewController.swift in Sources */,
+				43550F101A6C039500A8FC39 /* Issues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +433,7 @@
 				436B7D8F1A6ABDB3003BDE13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		436B7D901A6ABDB3003BDE13 /* Build configuration list for PBXNativeTarget "InspectionApp1.1Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +442,7 @@
 				436B7D921A6ABDB3003BDE13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
